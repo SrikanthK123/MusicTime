@@ -1,8 +1,13 @@
 {
   "files": {
     "main.css": "/MusicTime/static/css/main.db63ba52.css",
-    "main.js": "/MusicTime/static/js/main.6e52a68c.js",
+    "main.js": "/MusicTime/static/js/main.013c421e.js",
     "static/js/453.61bdeda6.chunk.js": "/MusicTime/static/js/453.61bdeda6.chunk.js",
+    "static/media/Nanna Nuv Naa Pranam.mp3": "/MusicTime/static/media/Nanna Nuv Naa Pranam.881a17f84cbf7d42ffa5.mp3",
+    "static/media/Kurchi Madathapetti.mp3": "/MusicTime/static/media/Kurchi Madathapetti.8e28a965227ab5bf60c8.mp3",
+    "static/media/Ramuloo Ramulaa.mp3": "/MusicTime/static/media/Ramuloo Ramulaa.fede4ab4d2dffa2e6a6a.mp3",
+    "static/media/Samajavaragamana.mp3": "/MusicTime/static/media/Samajavaragamana.ee9a1ad9442ad242f7a0.mp3",
+    "static/media/Anjanadri Theme Song.mp3": "/MusicTime/static/media/Anjanadri Theme Song.f3b599c26f6ef52fe32a.mp3",
     "static/media/logo.svg": "/MusicTime/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/slick.svg": "/MusicTime/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/MusicTime/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -10,11 +15,11 @@
     "static/media/slick.woff": "/MusicTime/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MusicTime/index.html",
     "main.db63ba52.css.map": "/MusicTime/static/css/main.db63ba52.css.map",
-    "main.6e52a68c.js.map": "/MusicTime/static/js/main.6e52a68c.js.map",
+    "main.013c421e.js.map": "/MusicTime/static/js/main.013c421e.js.map",
     "453.61bdeda6.chunk.js.map": "/MusicTime/static/js/453.61bdeda6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db63ba52.css",
-    "static/js/main.6e52a68c.js"
+    "static/js/main.013c421e.js"
   ]
 }
