@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MusicTime/static/css/main.bd29d326.css",
-    "main.js": "/MusicTime/static/js/main.4bd1b243.js",
+    "main.css": "/MusicTime/static/css/main.0970fa41.css",
+    "main.js": "/MusicTime/static/js/main.22e8d25d.js",
     "static/js/453.8d9bd47f.chunk.js": "/MusicTime/static/js/453.8d9bd47f.chunk.js",
     "static/media/Nanna Nuv Naa Pranam.mp3": "/MusicTime/static/media/Nanna Nuv Naa Pranam.881a17f84cbf7d42ffa5.mp3",
     "static/media/Yaalo Yaalaa.mp3": "/MusicTime/static/media/Yaalo Yaalaa.505fe73ed14a74d5dd27.mp3",
@@ -32,12 +32,12 @@
     "static/media/slick.ttf": "/MusicTime/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/MusicTime/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MusicTime/index.html",
-    "main.bd29d326.css.map": "/MusicTime/static/css/main.bd29d326.css.map",
-    "main.4bd1b243.js.map": "/MusicTime/static/js/main.4bd1b243.js.map",
+    "main.0970fa41.css.map": "/MusicTime/static/css/main.0970fa41.css.map",
+    "main.22e8d25d.js.map": "/MusicTime/static/js/main.22e8d25d.js.map",
     "453.8d9bd47f.chunk.js.map": "/MusicTime/static/js/453.8d9bd47f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd29d326.css",
-    "static/js/main.4bd1b243.js"
+    "static/css/main.0970fa41.css",
+    "static/js/main.22e8d25d.js"
   ]
 }
