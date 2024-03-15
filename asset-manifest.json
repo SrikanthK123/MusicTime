@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MusicTime/static/css/main.265e9fff.css",
-    "main.js": "/MusicTime/static/js/main.154bbe57.js",
+    "main.js": "/MusicTime/static/js/main.4911a4a8.js",
     "static/js/453.8d9bd47f.chunk.js": "/MusicTime/static/js/453.8d9bd47f.chunk.js",
     "static/media/Nanna Nuv Naa Pranam.mp3": "/MusicTime/static/media/Nanna Nuv Naa Pranam.881a17f84cbf7d42ffa5.mp3",
     "static/media/Dum Masala.mp3": "/MusicTime/static/media/Dum Masala.77e057ba752ba0a1b7f3.mp3",
@@ -12,6 +12,7 @@
     "static/media/Nee Kannu Neeli Samudram.mp3": "/MusicTime/static/media/Nee Kannu Neeli Samudram.38e1b95642b6f6bf10fe.mp3",
     "static/media/Kannaa Nidurinchara.mp3": "/MusicTime/static/media/Kannaa Nidurinchara.e54fa94110ead4ee9f73.mp3",
     "static/media/Komma Uyyala.mp3": "/MusicTime/static/media/Komma Uyyala.471ec1849c1d69ed9e8a.mp3",
+    "static/media/Gaaju-bomma.mp3": "/MusicTime/static/media/Gaaju-bomma.a0af947ab2c59d516188.mp3",
     "static/media/Ranguladdhukunna.mp3": "/MusicTime/static/media/Ranguladdhukunna.e3c7a030d419e38ac40e.mp3",
     "static/media/Etthara Jenda.mp3": "/MusicTime/static/media/Etthara Jenda.ac3b56064dbc369ff434.mp3",
     "static/media/Komuram Bheemudo.mp3": "/MusicTime/static/media/Komuram Bheemudo.3f1ab261392898a192c6.mp3",
@@ -22,11 +23,13 @@
     "static/media/Boss Party.mp3": "/MusicTime/static/media/Boss Party.883705363512d30fc6df.mp3",
     "static/media/Saahore Baahubali.mp3": "/MusicTime/static/media/Saahore Baahubali.7b7094e209c5166b89f9.mp3",
     "static/media/Naatu Naatu.mp3": "/MusicTime/static/media/Naatu Naatu.131fd10e09b1a928aef4.mp3",
+    "static/media/Adigaa.mp3": "/MusicTime/static/media/Adigaa.863b96f4dc3b79ee4c72.mp3",
     "static/media/ButtaBomma.mp3": "/MusicTime/static/media/ButtaBomma.0511e5eedef68a46ea14.mp3",
     "static/media/Poonakaalu Loading.mp3": "/MusicTime/static/media/Poonakaalu Loading.be3034e70afdb6bdd7a9.mp3",
     "static/media/Sooreede Song.mp3": "/MusicTime/static/media/Sooreede Song.237e527596dad49abcc0.mp3",
     "static/media/Janani.mp3": "/MusicTime/static/media/Janani.1e2ab1389ecdce10e38c.mp3",
     "static/media/Oka Praanam.mp3": "/MusicTime/static/media/Oka Praanam.d0d3c2efab7d87464327.mp3",
+    "static/media/Raghunandana.mp3": "/MusicTime/static/media/Raghunandana.dec37c9a8169b3b1e492.mp3",
     "static/media/Anjanadri Theme Song.mp3": "/MusicTime/static/media/Anjanadri Theme Song.f3b599c26f6ef52fe32a.mp3",
     "static/media/Sri Raghavam.mp3": "/MusicTime/static/media/Sri Raghavam.8a2f14cd105e8b086b9f.mp3",
     "static/media/slick.svg": "/MusicTime/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -35,11 +38,11 @@
     "static/media/slick.woff": "/MusicTime/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MusicTime/index.html",
     "main.265e9fff.css.map": "/MusicTime/static/css/main.265e9fff.css.map",
-    "main.154bbe57.js.map": "/MusicTime/static/js/main.154bbe57.js.map",
+    "main.4911a4a8.js.map": "/MusicTime/static/js/main.4911a4a8.js.map",
     "453.8d9bd47f.chunk.js.map": "/MusicTime/static/js/453.8d9bd47f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.265e9fff.css",
-    "static/js/main.154bbe57.js"
+    "static/js/main.4911a4a8.js"
   ]
 }
