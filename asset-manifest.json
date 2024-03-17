@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MusicTime/static/css/main.aaf96fd5.css",
-    "main.js": "/MusicTime/static/js/main.5cd12735.js",
+    "main.js": "/MusicTime/static/js/main.0ed27c74.js",
     "static/js/453.8d9bd47f.chunk.js": "/MusicTime/static/js/453.8d9bd47f.chunk.js",
     "static/media/Nanna Nuv Naa Pranam.mp3": "/MusicTime/static/media/Nanna Nuv Naa Pranam.881a17f84cbf7d42ffa5.mp3",
     "static/media/Dum Masala.mp3": "/MusicTime/static/media/Dum Masala.77e057ba752ba0a1b7f3.mp3",
@@ -40,6 +40,7 @@
     "static/media/Oka Praanam.mp3": "/MusicTime/static/media/Oka Praanam.d0d3c2efab7d87464327.mp3",
     "static/media/Raghunandana.mp3": "/MusicTime/static/media/Raghunandana.dec37c9a8169b3b1e492.mp3",
     "static/media/Anjanadri Theme Song.mp3": "/MusicTime/static/media/Anjanadri Theme Song.f3b599c26f6ef52fe32a.mp3",
+    "static/media/Kalki 2898AD BGM.mp3": "/MusicTime/static/media/Kalki 2898AD BGM.1f6bcf9694e6f0646f9d.mp3",
     "static/media/Sri Raghavam.mp3": "/MusicTime/static/media/Sri Raghavam.8a2f14cd105e8b086b9f.mp3",
     "static/media/SoundWave.gif": "/MusicTime/static/media/SoundWave.825a9ddcbac4275c992e.gif",
     "static/media/slick.svg": "/MusicTime/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -48,11 +49,11 @@
     "static/media/slick.woff": "/MusicTime/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MusicTime/index.html",
     "main.aaf96fd5.css.map": "/MusicTime/static/css/main.aaf96fd5.css.map",
-    "main.5cd12735.js.map": "/MusicTime/static/js/main.5cd12735.js.map",
+    "main.0ed27c74.js.map": "/MusicTime/static/js/main.0ed27c74.js.map",
     "453.8d9bd47f.chunk.js.map": "/MusicTime/static/js/453.8d9bd47f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aaf96fd5.css",
-    "static/js/main.5cd12735.js"
+    "static/js/main.0ed27c74.js"
   ]
 }
