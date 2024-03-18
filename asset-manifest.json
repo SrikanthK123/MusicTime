@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MusicTime/static/css/main.1d1b9435.css",
-    "main.js": "/MusicTime/static/js/main.672eab00.js",
+    "main.js": "/MusicTime/static/js/main.9b9b7a06.js",
     "static/js/453.8d9bd47f.chunk.js": "/MusicTime/static/js/453.8d9bd47f.chunk.js",
     "static/media/Nanna Nuv Naa Pranam.mp3": "/MusicTime/static/media/Nanna Nuv Naa Pranam.881a17f84cbf7d42ffa5.mp3",
     "static/media/Dum Masala.mp3": "/MusicTime/static/media/Dum Masala.77e057ba752ba0a1b7f3.mp3",
@@ -45,17 +45,18 @@
     "static/media/play.gif": "/MusicTime/static/media/play.a6b03669566fb0ee5586.gif",
     "static/media/pause.gif": "/MusicTime/static/media/pause.8e850d7b05d98d4d135a.gif",
     "static/media/SoundWave.gif": "/MusicTime/static/media/SoundWave.825a9ddcbac4275c992e.gif",
+    "static/media/M2.png": "/MusicTime/static/media/M2.d558eccedce98dbdb4bb.png",
     "static/media/slick.svg": "/MusicTime/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/MusicTime/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/MusicTime/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/MusicTime/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MusicTime/index.html",
     "main.1d1b9435.css.map": "/MusicTime/static/css/main.1d1b9435.css.map",
-    "main.672eab00.js.map": "/MusicTime/static/js/main.672eab00.js.map",
+    "main.9b9b7a06.js.map": "/MusicTime/static/js/main.9b9b7a06.js.map",
     "453.8d9bd47f.chunk.js.map": "/MusicTime/static/js/453.8d9bd47f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d1b9435.css",
-    "static/js/main.672eab00.js"
+    "static/js/main.9b9b7a06.js"
   ]
 }
