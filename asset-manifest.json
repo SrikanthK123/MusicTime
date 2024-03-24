@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MusicTime/static/css/main.833914c4.css",
-    "main.js": "/MusicTime/static/js/main.21e888ea.js",
+    "main.js": "/MusicTime/static/js/main.d37dd1f8.js",
     "static/js/453.8d9bd47f.chunk.js": "/MusicTime/static/js/453.8d9bd47f.chunk.js",
     "static/media/Nanna Nuv Naa Pranam.mp3": "/MusicTime/static/media/Nanna Nuv Naa Pranam.881a17f84cbf7d42ffa5.mp3",
     "static/media/Dum Masala.mp3": "/MusicTime/static/media/Dum Masala.77e057ba752ba0a1b7f3.mp3",
@@ -52,11 +52,11 @@
     "static/media/slick.woff": "/MusicTime/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MusicTime/index.html",
     "main.833914c4.css.map": "/MusicTime/static/css/main.833914c4.css.map",
-    "main.21e888ea.js.map": "/MusicTime/static/js/main.21e888ea.js.map",
+    "main.d37dd1f8.js.map": "/MusicTime/static/js/main.d37dd1f8.js.map",
     "453.8d9bd47f.chunk.js.map": "/MusicTime/static/js/453.8d9bd47f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.833914c4.css",
-    "static/js/main.21e888ea.js"
+    "static/js/main.d37dd1f8.js"
   ]
 }
