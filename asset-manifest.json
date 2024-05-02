@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MusicTime/static/css/main.01e0685d.css",
-    "main.js": "/MusicTime/static/js/main.c6901637.js",
+    "main.js": "/MusicTime/static/js/main.934100b5.js",
     "static/js/453.8d9bd47f.chunk.js": "/MusicTime/static/js/453.8d9bd47f.chunk.js",
     "static/media/DevaraBGM.mp3": "/MusicTime/static/media/DevaraBGM.b77fd9f9f61cf149d557.mp3",
     "static/media/Nanna Nuv Naa Pranam.mp3": "/MusicTime/static/media/Nanna Nuv Naa Pranam.881a17f84cbf7d42ffa5.mp3",
@@ -48,11 +48,15 @@
     "static/media/play.gif": "/MusicTime/static/media/play.a6b03669566fb0ee5586.gif",
     "static/media/pause.gif": "/MusicTime/static/media/pause.8e850d7b05d98d4d135a.gif",
     "static/media/HeadSet.png": "/MusicTime/static/media/HeadSet.91f80819563b3c708c90.png",
+    "static/media/Pushpa2Logo.png": "/MusicTime/static/media/Pushpa2Logo.c27161bf572c8d78206e.png",
     "static/media/SalaarPoster.jpg": "/MusicTime/static/media/SalaarPoster.0a8748150d53e5f72740.jpg",
     "static/media/SoundWave.gif": "/MusicTime/static/media/SoundWave.825a9ddcbac4275c992e.gif",
     "static/media/Kalki2898AD2.jpg": "/MusicTime/static/media/Kalki2898AD2.563f42aad21394d7a07a.jpg",
     "static/media/Pushpa2poster2.jpg": "/MusicTime/static/media/Pushpa2poster2.819a6551353135fa5087.jpg",
     "static/media/WaveInMainPage.gif": "/MusicTime/static/media/WaveInMainPage.9efec8d702ff3c10531a.gif",
+    "static/media/KalkiLogo1.png": "/MusicTime/static/media/KalkiLogo1.eac0e1b9914bb2fcf754.png",
+    "static/media/GamechangeLogo.png": "/MusicTime/static/media/GamechangeLogo.29432dffaf8a28cf7071.png",
+    "static/media/DevaraLogo.png": "/MusicTime/static/media/DevaraLogo.636b61c06524ad325f9e.png",
     "static/media/M2.png": "/MusicTime/static/media/M2.d558eccedce98dbdb4bb.png",
     "static/media/slick.svg": "/MusicTime/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/MusicTime/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -61,11 +65,11 @@
     "index.html": "/MusicTime/index.html",
     "static/media/Bhadra-Shaila-Hariharan.mp3": "/MusicTime/static/media/Bhadra-Shaila-Hariharan.31d6cfe0d16ae931b73c.mp3",
     "main.01e0685d.css.map": "/MusicTime/static/css/main.01e0685d.css.map",
-    "main.c6901637.js.map": "/MusicTime/static/js/main.c6901637.js.map",
+    "main.934100b5.js.map": "/MusicTime/static/js/main.934100b5.js.map",
     "453.8d9bd47f.chunk.js.map": "/MusicTime/static/js/453.8d9bd47f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01e0685d.css",
-    "static/js/main.c6901637.js"
+    "static/js/main.934100b5.js"
   ]
 }
