@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MusicTime/static/css/main.01e0685d.css",
-    "main.js": "/MusicTime/static/js/main.4d001d5b.js",
+    "main.js": "/MusicTime/static/js/main.930e29e9.js",
     "static/js/453.8d9bd47f.chunk.js": "/MusicTime/static/js/453.8d9bd47f.chunk.js",
     "static/media/DevaraBGM.mp3": "/MusicTime/static/media/DevaraBGM.b77fd9f9f61cf149d557.mp3",
     "static/media/Nanna Nuv Naa Pranam.mp3": "/MusicTime/static/media/Nanna Nuv Naa Pranam.881a17f84cbf7d42ffa5.mp3",
@@ -12,6 +12,7 @@
     "static/media/Kurchi Madathapetti.mp3": "/MusicTime/static/media/Kurchi Madathapetti.8e28a965227ab5bf60c8.mp3",
     "static/media/Deva-Deva.mp3": "/MusicTime/static/media/Deva-Deva.1be4372c3706ce0984f5.mp3",
     "static/media/Ram Sita Ram.mp3": "/MusicTime/static/media/Ram Sita Ram.c3f1b363c9b38d165ab0.mp3",
+    "static/media/BG2.gif": "/MusicTime/static/media/BG2.faaa4d2823d1da879eb0.gif",
     "static/media/Dosti.mp3": "/MusicTime/static/media/Dosti.9d626f391bdcbf30e3bd.mp3",
     "static/media/Nee Kannu Neeli Samudram.mp3": "/MusicTime/static/media/Nee Kannu Neeli Samudram.38e1b95642b6f6bf10fe.mp3",
     "static/media/Kannaa Nidurinchara.mp3": "/MusicTime/static/media/Kannaa Nidurinchara.e54fa94110ead4ee9f73.mp3",
@@ -65,11 +66,11 @@
     "index.html": "/MusicTime/index.html",
     "static/media/Bhadra-Shaila-Hariharan.mp3": "/MusicTime/static/media/Bhadra-Shaila-Hariharan.31d6cfe0d16ae931b73c.mp3",
     "main.01e0685d.css.map": "/MusicTime/static/css/main.01e0685d.css.map",
-    "main.4d001d5b.js.map": "/MusicTime/static/js/main.4d001d5b.js.map",
+    "main.930e29e9.js.map": "/MusicTime/static/js/main.930e29e9.js.map",
     "453.8d9bd47f.chunk.js.map": "/MusicTime/static/js/453.8d9bd47f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01e0685d.css",
-    "static/js/main.4d001d5b.js"
+    "static/js/main.930e29e9.js"
   ]
 }
