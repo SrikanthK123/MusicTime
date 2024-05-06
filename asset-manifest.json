@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MusicTime/static/css/main.ef4a7a51.css",
-    "main.js": "/MusicTime/static/js/main.e527c713.js",
+    "main.css": "/MusicTime/static/css/main.93bb5a07.css",
+    "main.js": "/MusicTime/static/js/main.2d30e770.js",
     "static/js/453.8d9bd47f.chunk.js": "/MusicTime/static/js/453.8d9bd47f.chunk.js",
     "static/media/DevaraBGM.mp3": "/MusicTime/static/media/DevaraBGM.b77fd9f9f61cf149d557.mp3",
     "static/media/Nanna Nuv Naa Pranam.mp3": "/MusicTime/static/media/Nanna Nuv Naa Pranam.881a17f84cbf7d42ffa5.mp3",
@@ -37,6 +37,7 @@
     "static/media/ButtaBomma.mp3": "/MusicTime/static/media/ButtaBomma.0511e5eedef68a46ea14.mp3",
     "static/media/Poonakaalu Loading.mp3": "/MusicTime/static/media/Poonakaalu Loading.be3034e70afdb6bdd7a9.mp3",
     "static/media/Sooreede Song.mp3": "/MusicTime/static/media/Sooreede Song.237e527596dad49abcc0.mp3",
+    "static/media/LoadingCD.gif": "/MusicTime/static/media/LoadingCD.93da4b308da7e6d7a3be.gif",
     "static/media/Janani.mp3": "/MusicTime/static/media/Janani.1e2ab1389ecdce10e38c.mp3",
     "static/media/Papa-Meri-Jaan.mp3": "/MusicTime/static/media/Papa-Meri-Jaan.8e9132f1e3e946a3c7bf.mp3",
     "static/media/Saari-Duniya-Jalaa-Denge.mp3": "/MusicTime/static/media/Saari-Duniya-Jalaa-Denge.4aa6ff8a9af8216f0952.mp3",
@@ -65,12 +66,12 @@
     "static/media/slick.woff": "/MusicTime/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MusicTime/index.html",
     "static/media/Bhadra-Shaila-Hariharan.mp3": "/MusicTime/static/media/Bhadra-Shaila-Hariharan.31d6cfe0d16ae931b73c.mp3",
-    "main.ef4a7a51.css.map": "/MusicTime/static/css/main.ef4a7a51.css.map",
-    "main.e527c713.js.map": "/MusicTime/static/js/main.e527c713.js.map",
+    "main.93bb5a07.css.map": "/MusicTime/static/css/main.93bb5a07.css.map",
+    "main.2d30e770.js.map": "/MusicTime/static/js/main.2d30e770.js.map",
     "453.8d9bd47f.chunk.js.map": "/MusicTime/static/js/453.8d9bd47f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef4a7a51.css",
-    "static/js/main.e527c713.js"
+    "static/css/main.93bb5a07.css",
+    "static/js/main.2d30e770.js"
   ]
 }
