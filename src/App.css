@@ -8,6 +8,23 @@
   height: 70vh;
   background-color: aliceblue;
 }
+
+/*
+@media screen and (max-width: 768px) {
+  #HomeSlider {
+    height: 40vh; 
+    background-size: 100% 100%;
+    background-position: center;
+
+  }
+}
+*/
+.link-no-decoration {
+  text-decoration: none;
+}
+
+
+
 #MovieCard {
   display: flex;
   flex-direction: column;
@@ -124,4 +141,635 @@
   font-weight: lighter;
 }
 
+#AllSongsLink{
+  text-decoration: none;
+  color: cyan;
+  transition: all  0.3s ease-in-out;
+  margin: 15px;
+}
+#AllSongsLink:hover{
+  color: rgb(73, 152, 152);
+}
+#SingleMovieAlnum {
+  width: 200px;
+  height: 130px;
+  background: white;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
 
+.img {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#e66465, #9198e5);
+  display: flex;
+  align-items: top;
+  justify-content: right;
+  transition: height 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.text .h3 {
+  font-family: 'Lucida Sans' sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#SingleMovieAlnum:hover .text {
+  opacity: 1;
+}
+
+#SingleMovieAlnum:hover .img {
+  height: 70%;
+}
+
+#SelectingLI:hover{
+  color: black;
+  background-color:#265a70;
+}
+
+.copy {
+  /* button */
+  --button-bg: #353434;
+  --button-hover-bg: #464646;
+  --button-text-color: #CCCCCC;
+  --button-hover-text-color: #8bb9fe;
+  --button-border-radius: 10px;
+  --button-diameter: 36px;
+  --button-outline-width: 1px;
+  --button-outline-color: rgb(141, 141, 141);
+  /* tooltip */
+  --tooltip-bg: #f4f3f3;
+  --toolptip-border-radius: 4px;
+  --tooltip-font-family: Menlo, Roboto Mono, monospace;
+  /* 👆 this field should not be empty */
+  --tooltip-font-size: 12px;
+  /* 👆 this field should not be empty */
+  --tootip-text-color: rgb(50, 50, 50);
+  --tooltip-padding-x: 7px;
+  --tooltip-padding-y: 7px;
+  --tooltip-offset: 8px;
+  /* --tooltip-transition-duration: 0.3s; */
+  /* 👆 if you need a transition, 
+  just remove the comment,
+  but I didn't like the transition :| */
+}
+
+.copy {
+  box-sizing: border-box;
+  width: var(--button-diameter);
+  height: var(--button-diameter);
+  border-radius: var(--button-border-radius);
+  background-color: var(--button-bg);
+  color: var(--button-text-color);
+  border: none;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+
+.tooltip {
+  position: absolute;
+  opacity: 0;
+  visibility: 0;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font: var(--tooltip-font-size) var(--tooltip-font-family);
+  color: var(--tootip-text-color);
+  background: var(--tooltip-bg);
+  padding: var(--tooltip-padding-y) var(--tooltip-padding-x);
+  border-radius: var(--toolptip-border-radius);
+  pointer-events: none;
+  transition: all var(--tooltip-transition-duration) cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.tooltip::before {
+  content: attr(data-text-initial);
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: calc(var(--tooltip-padding-y) / 2 * -1);
+  width: var(--tooltip-padding-y);
+  height: var(--tooltip-padding-y);
+  background: inherit;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: -999;
+  pointer-events: none;
+}
+
+.copy svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.checkmark {
+  display: none;
+}
+
+/* actions */
+
+.copy:hover .tooltip,
+.copy:focus:not(:focus-visible) .tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: calc((100% + var(--tooltip-offset)) * -1);
+}
+
+.copy:focus:not(:focus-visible) .tooltip::before {
+  content: attr(data-text-end);
+}
+
+.copy:focus:not(:focus-visible) .clipboard {
+  display: none;
+}
+
+.copy:focus:not(:focus-visible) .checkmark {
+  display: block;
+}
+
+.copy:hover,
+.copy:focus {
+  background-color: var(--button-hover-bg);
+}
+
+.copy:active {
+  outline: var(--button-outline-width) solid var(--button-outline-color);
+}
+
+.copy:hover svg {
+  color: var(--button-hover-text-color);
+}
+
+/* before adding the photo to the div with the "card-photo" class, in the css clear the styles for .card-photo and remove .card-photo::before and .card-photo::after, then set the desired styles for .card- photo. */
+
+
+
+
+
+.card-title {
+  text-align: center;
+  margin-bottom:10px ;
+  padding: 10px;
+  color: var(--font-color);
+  font-size: 13px;
+  font-weight: 400;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-title span {
+  font-size: 13px;
+  color: var(--font-color-sub);
+}
+
+
+#CastInfo {
+  width: 200px;
+  height: 120px;
+  background: white;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.Castimg {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#e66465, #9198e5);
+  display: flex;
+  align-items: top;
+  justify-content: right;
+  transition: height 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  transition: opacity 0.2s ease-in-out;
+  background-color:#323232;
+  
+}
+
+.text1 .h4 {
+  font-family: 'Lucida Sans' sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+#CastName{
+  font-family: 'Lucida Sans' sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+.SearchBtn{
+  background-color: #265a70;
+  color: white;
+  border-radius: 6px;
+  padding: 5px;
+  border: 1px solid cyan;
+}
+#searchInput{
+  opacity: 0;
+}
+.SearchBtn:active #searchInput {
+  opacity: 1;
+  
+}
+/* this is a recreation of twitter search in css */
+.form {
+  --input-text-color: #fff;
+  --input-bg-color: #283542;
+  --focus-input-bg-color: transparent;
+  --text-color: #949faa;
+  --active-color: #1b9bee;
+  --width-of-input: 200px;
+  --inline-padding-of-input: 1.2em;
+  --gap: 0.9rem;
+}
+/* form style */
+.form {
+  font-size: 0.9rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  width: var(--width-of-input);
+  position: relative;
+  isolation: isolate;
+}
+/* a fancy bg for showing background and border when focus. */
+.fancy-bg {
+  position: absolute;
+  width: 100%;
+  inset: 0;
+  background: var(--input-bg-color);
+  border-radius: 30px;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+/* label styling */
+label {
+  width: 100%;
+  padding: 0.8em;
+  height: 40px;
+  padding-inline: var(--inline-padding-of-input);
+  display: flex;
+  align-items: center;
+}
+
+.search,.close-btn {
+  position: absolute;
+}
+/* styling search-icon */
+.search {
+  fill: var(--text-color);
+  left: var(--inline-padding-of-input);
+}
+/* svg -- size */
+svg {
+  width: 17px;
+  display: block;
+  
+}
+/* styling of close button */
+.close-btn {
+  border: none;
+  right: var(--inline-padding-of-input);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 0.1em;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--active-color);
+  opacity: 0;
+  visibility: hidden;
+}
+/* styling of input */
+.input {
+  color: var(--input-text-color);
+  width: 100%;
+  margin-inline: min(2em,calc(var(--inline-padding-of-input) + var(--gap)));
+  background: none;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  color: var(--text-color)
+}
+/* input background change in focus */
+.input:focus ~ .fancy-bg {
+  border: 1px solid var(--active-color);
+  background: var(--focus-input-bg-color);
+}
+/* search icon color change in focus */
+.input:focus ~ .search {
+  fill: var(--active-color);
+}
+/* showing close button when typing */
+.input:valid ~ .close-btn {
+  opacity: 1;
+  visibility: visible;
+}
+/* this is for the default background in input,when selecting autofill options -- you can remove this code if you do not want to override the browser style.  */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+  -webkit-transition-delay: 9999s;
+ 
+}#MainPageBtn{
+  background-color:#265a70;
+  border: 1px solid cyan;
+  transition: 0.5s ease-in-out;
+}
+#MainPageBtn:hover{
+  background-color: #283542;
+  border: 1px solid pink;
+}
+.MainPageBtn{
+  background-color:#265a70;
+  border: 1px solid cyan;
+  transition: 0.5s ease-in-out;
+}
+.MainPageBtn:hover{
+  background-color: #283542;
+  border: 1px solid pink;
+}
+#LogoImg:hover{
+  transform: scale(1.3);
+  animation: Shake 1.5s 1;
+}
+@keyframes Shake{
+  50%{
+    transform: rotate(180deg);
+  }
+}
+/* */
+.plan {
+  border-radius: 16px;
+  box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
+  padding: 10px;
+  background-color: #fff;
+  color: #697e91;
+  min-width: 350px;
+  min-height: 350px;
+}
+
+.plan strong {
+  font-weight: 600;
+  color: #425275;
+}
+
+.plan .inner {
+  align-items:end;
+  padding: 20px;
+  padding-top: 40px;
+  background-color: #ecf0ff;
+  border-radius: 12px;
+  position: relative;
+  
+}
+
+.plan .pricing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #bed6fb;
+  border-radius: 99em 0 0 99em;
+  display: flex;
+  align-items: center;
+  padding: 0.625em 0.75em;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #425475;
+}
+
+.plan .pricing small {
+  color: #707a91;
+  font-size: 0.75em;
+  margin-left: 0.25em;
+}
+
+.plan .title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #425675;
+}
+
+.plan .title + * {
+  margin-top: 0.75rem;
+}
+
+.plan .info + * {
+  margin-top: 1rem;
+}
+
+.plan .features {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan .features li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.plan .features li + * {
+  margin-top: 0.75rem;
+}
+
+.plan .features .icon {
+  background-color: #1FCAC5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.plan .features .icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+.plan .features + * {
+  margin-top: 1.25rem;
+}
+
+.plan .action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.plan .button {
+  background-color: #6558d3;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 0.625em 0.75em;
+  text-decoration: none;
+}
+
+.plan .button:hover, .plan .button:focus {
+  background-color: #4133B7;
+}
+.PlayListBtn {
+  height: 40px;
+  margin: 5px;
+  width: 75px;
+  background: cyan;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Consolas, Courier New, monospace;
+  border: solid #404c5d 1px;
+  font-size: 16px;
+  color: rgb(161, 161, 161);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  border-radius: 5px;
+  
+}
+
+.PlayListBtn:hover {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  background-color:#265a70;
+}
+
+.PlayListBtn:active {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+#LinkedIn{
+  color: white;
+}
+#Insta{
+  color: white;
+}
+#Github{
+  color: white;
+}
+#LinkedIn:hover{
+  color: rgb(50, 50, 226);
+}
+#Insta:hover{
+  color: rgb(252, 67, 196);
+}
+#Github:hover{
+  color: rgb(149, 147, 147);
+}
+
+
+.BackBtn{
+  background-color: #265a70;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid cyan;
+  padding: 3px;
+  width: 80px;
+  transition: all 0.5s ease-in-out
+}
+.BackBtn:hover{
+  background-color:#a2a8d3;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid #e7eaf6;
+}
+.loading-wave {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.loading-bar {
+  width: 20px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #3498db;
+  border-radius: 5px;
+  animation: loading-wave-animation 1s ease-in-out infinite;
+}
+
+.loading-bar:nth-child(2) {
+  animation-delay: 0.1s;
+  background-color: red;
+}
+
+.loading-bar:nth-child(3) {
+  animation-delay: 0.2s;
+  background-color:green;
+}
+
+.loading-bar:nth-child(4) {
+  animation-delay: 0.3s;
+  background-color: cyan;
+}
+
+@keyframes loading-wave-animation {
+  0% {
+    height: 10px;
+  }
+
+  50% {
+    height: 50px;
+  }
+
+  100% {
+    height: 10px;
+  }
+}
