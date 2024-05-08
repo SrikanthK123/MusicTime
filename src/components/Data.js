@@ -48,6 +48,8 @@ import GamechangeLogo from "../Assets/Images/GamechangeLogo.png"
 import KalkiLogo from "../Assets/Images/KalkiLogo1.png"
 import Pushpa2Logo from "../Assets/Images/Pushpa2Logo.png"
 import DevaraLogo from "../Assets/Images/DevaraLogo.png"
+import SitaRamamSong1 from "../Assets/SongsList/Kaanunna-Kalyanam.mp3"
+import SitaRamamSong2 from "../Assets/SongsList/Oh-Sita-Hey-Rama.mp3"
 
 
 
@@ -101,6 +103,11 @@ export const AllTeluguSongs = [
     
 
     }, 
+    {
+        Name : 'Sita Ramam',
+        MovieSong : 'Kaanunna Kalyanam',
+        ImageUrl : 'https://wallpaperaccess.com/full/8407020.jpg',
+    }
     
 ]
 export const AllHindiSongs = [
@@ -749,6 +756,57 @@ export const IndividualTeluguSong =[
             {
                 CastName : "Babloo Prithiveeraj",
                 CastImage : "https://imageory.clapnumber.com/albums/large/1620989693_privthiviraj.jpg",
+                
+            },
+        ]
+
+    },
+    {
+        Name : 'Sita Ramam',
+        MovieSong : 'Kaanunna Kalyanam',
+        ImageUrl : 'https://wallpaperaccess.com/full/8407020.jpg',
+        MusicInfo : 'The music and soundtrack was composed by Vishal Chandrasekhar. The audio rights were acquired by Sony Music India. The first single titled "Oh Sita Hey Rama" was released on 9 May 2022. "Ala Nemaliki - Inthandam Reprise" version sung by S. P. Charan was released later.',
+        SongList : [
+            {
+                SongName : "Kaanunna Kalyanam",
+                song : SitaRamamSong1,
+        
+            },
+            {
+                SongName : "Oh-Sita-Hey-Rama",
+                song :SitaRamamSong2
+            }
+        ],
+
+        Cast : [
+            {
+                CastName : "Vishal Chandrashekhar🎹",
+                CastImage : "https://th.bing.com/th/id/OIP.57Z4Oa3loSHWEKegPjE8UwAAAA?w=400&h=350&rs=1&pid=ImgDetMain",
+                
+            },
+            {
+                CastName : "Dulquer Salmaan",
+                CastImage : "https://www.gobest.in/5/gobest/Dulquer%20Salmaan%202.jpg",
+                
+            },
+            {
+                CastName : "Mrunal Thakur",
+                CastImage : "https://www.indiakestar.com/wp-content/uploads/2022/02/Mrunal-Thakur-Biography.jpg",
+                
+            },
+            {
+                CastName : "Rashmika Mandanna",
+                CastImage : "https://1.bp.blogspot.com/-wb1kLKXSD4w/YLjgd3dZOdI/AAAAAAAANb4/NqlXB2hqRb4CfpTgpClgbD1zR6gN6zUDACLcBGAsYHQ/w1200-h630-p-k-no-nu/Rashmika-Mandanna.jpg",
+                
+            },
+            {
+                CastName : "Sumanth",
+                CastImage : "https://th.bing.com/th/id/OIP.UV5WH2mJ39jD4jDYaeax3QHaFj?rs=1&pid=ImgDetMain",
+                
+            },
+            {
+                CastName : "Tharun Bhascker",
+                CastImage : "https://th-i.thgim.com/public/incoming/pf7466/article66856526.ece/alternates/FREE_1200/Tharun%20new.jpg",
                 
             },
         ]

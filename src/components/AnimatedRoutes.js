@@ -22,8 +22,7 @@ const AnimatedRoutes = () => {
           {IndividualTeluguSong.map((movie, index) => (
             <Route
               key={index}
-              exact
-              path={`/${movie.Name}`}
+              exact path={`/${movie.Name}`}
               element={<SoloMovieInfo Name={movie.Name} ImageUrl={movie.ImageUrl} SongList={movie.SongList}  Cast={movie.Cast} MusicInfo = {movie.MusicInfo}   />}
             />
           ))}

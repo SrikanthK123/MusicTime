@@ -13,6 +13,7 @@ import store, { persistor } from './store/store';
 import AddSongs from './components/AddSongs';
 import { PersistGate } from 'redux-persist/integration/react';
 import Footer from './components/Footer';
+import UserViews from './components/UserViews';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -20,7 +21,7 @@ function App() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 5000); // 5000 milliseconds = 5 seconds
+    }, 2000); // 5000 milliseconds = 5 seconds
 
     return () => clearTimeout(timeout);
   }, []);
@@ -31,12 +32,19 @@ function App() {
         <PersistGate loading={null} persistor={persistor}>
           {loading ? (
             // Render loading screen here
-            <div className="loading" style={{width:'100%',height:'100vh',display:'flex',justifyContent:'center',alignItems:'center',color:'white',backgroundColor:'#455d7a'}}><div class="loading-wave">
+            <div className="loading" style={{width:'100%',height:'100vh',display:'flex',justifyContent:'center',alignItems:'center',color:'white',flexDirection:'row'}}> <div><img src='https://i.pinimg.com/originals/dc/c9/ce/dcc9cea8525b59b91d1a6ed0e27fff59.gif' style={{width:'250px',height:'250px',borderRadius:'50%'}} />
+            <div class="loader">
+   <div data-glitch="Loading..." class="glitch bg-dark my-2">Loading...</div>
+</div>
+            </div>
+          {/**
+           * <div class="loading-wave">
         <div class="loading-bar"></div>
         <div class="loading-bar"></div>
         <div class="loading-bar"></div>
         <div class="loading-bar"></div>
       </div>
+           */}  
       </div>
           ) : (
             <Router>

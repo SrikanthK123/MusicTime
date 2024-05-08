@@ -109,7 +109,7 @@ const NavBar = () => {
                 <li><Link className="dropdown-item text-white" id="SelectingLI" to="/MusicTime">Lobby</Link></li>
                 <li><Link className="dropdown-item text-white" id="SelectingLI" to="/AllSongs">All Songs</Link></li>
                 <li><Link className="dropdown-item text-white" id="SelectingLI" to="/DevotionalSongs">Devotional Songs</Link></li>
-                <li><Link className="dropdown-item text-white" id="SelectingLI" to="/MusicTime">Hindi Album</Link></li>
+                
               </ul>
               
             </div>

@@ -1,13 +1,12 @@
 import React, { useEffect, useState,useRef,audioRef } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
+import Slider from "react-slick";import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ClassicalSong, HomeSliderData, TrendingSong, AllTeluguSongs,AllHindiSongs } from "./Data";
 import { MelodySongs } from "./Data";
 import { Devotional } from "./Data";
 import { PopSong } from "./Data";
 import song from '../Assets/SongsList/Kurchi Madathapetti.mp3'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from 'react-router-dom';
 import KalkiBGM from "../Assets/SongsList/Kalki 2898AD BGM.mp3"
 import Pause from "../Assets/Images/pause.gif"
 import Play from "../Assets/Images/play.gif"
@@ -18,6 +17,8 @@ import MainBoxWaveGif from "../Assets/Images/WaveInMainPage.gif"
 import MainImage from "../Assets/Images/HeadSet.png"
 import BGGif from "../Assets/Images/BG2.gif"
 import LoadingCD from "../Assets/Images/LoadingCD.gif"
+import Draggable from 'react-draggable';
+import UserViews from "./UserViews";
 
 const Home = () => {
 
@@ -87,10 +88,13 @@ const toggleAudio = (name, url) => {
       },
     ],
   };
+  
+
 
   
   return (
     <motion.div className="HomePage py-4" intial={{opacity : 0}} animate={{opacity : 1}} exit ={{opacity : 0,transition: {duration:0.05}}}>
+     <UserViews />
     {/**  <Slider {...settings} className="container" >
   {HomeSliderData.map((item, index) => (
     <div className="slider1" key={index} id="HomeSlider">
@@ -132,15 +136,17 @@ const toggleAudio = (name, url) => {
   ))}
 </Slider>*/} 
 
+
 <div className="HomeBox">
 
-
-
- <div className="container col-xxl-12 px-4 py-5"  style={{background:`url(https://acegif.com/wp-content/gif/outerspace-70.gif)`,backgroundPosition:'right',backgroundRepeat:'no-repeat',backgroundSize:'100% 100%',}}>
+ <div className="container col-xxl-12 px-4 py-5"  style={{background:`url(https://acegif.com/wp-content/gif/outerspace-70.gif)`,backgroundPosition:'right',backgroundRepeat:'no-repeat',backgroundSize:'100% 100%'}}>
           
             <div className="row flex-lg-row-reverse align-items-center g-5 py-5" style={{borderRadius:'15px'}}>
                 <div className="col-12 col-sm-8 col-lg-6" >
-                    <img src=  {MainImage} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="500" loading="lazy" style={{ borderRadius: '15px', }} />
+                  {/*<Draggable>*/}
+             
+                    <img   src=  {MainImage} className="d-block mx-lg-auto img-fluid"  alt="Bootstrap Themes" width="500" height="500" loading="lazy" style={{ borderRadius: '15px',zIndex:'1' }} />
+                    {/*</Draggable>*/}
                 </div>
                 <div className="col-lg-6" >
                     <h1 className="fw-bold text-white lh-1 mb-3">Music: The Universal Language of <span style={{color:'#f70776'}}>Emotion</span>.</h1>
@@ -160,7 +166,7 @@ Press play, escape, and let your <span style={{color:'#ffb5b5',fontWeight:'bold'
       {AllTeluguSongs.map((item, index) => (
    <Link to={`/${item.Name}`} className="link-no-decoration" >
    <div className='col d-flex justify-content-center '>
-     <div class="Card mx-2" id="SingleMovieAlnum">
+     <div class="Card mx-2" id="SingleMovieAlnum" >
        <div class="img" style={{ background: `url(${item.ImageUrl})`, backgroundPosition: 'center', backgroundSize: '100% 100%' }}></div>
        <div>
          <div class="text">

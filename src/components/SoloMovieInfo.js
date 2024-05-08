@@ -173,7 +173,9 @@ const SoloMovieInfo = (props) => {
            {/** <div className="bg-white my-5" style={{width:'100%',height:'50vh',borderRadius:'15px'}}>
                 <p className="p-4">Movie Lyric </p>
             </div>*/} 
+            <Link to="/MusicTime"><button className="BackBtn m-3">Back</button></Link>
             </div>
+            
         </motion.div>
     )
 }
